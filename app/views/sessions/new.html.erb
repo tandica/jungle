@@ -1,0 +1,16 @@
+<h1 style="padding-bottom:0.5em;">Login</h1>
+
+  <%= form_tag '/login' do %>
+
+      Email: 
+      <div style="padding-bottom:1em;">
+        <%= text_field_tag :email %>
+      </div>
+      <div> Password: </div>
+        <div style="padding-bottom:1em;">
+          <%= password_field_tag :password %>
+        </div>
+
+    <%= submit_tag "Submit", class: "btn btn-default"%>
+
+<% end %>

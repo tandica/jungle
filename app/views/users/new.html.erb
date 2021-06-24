@@ -1,0 +1,16 @@
+<h1 style="padding-bottom:0.5em;">Register</h1>
+
+<%= form_for :user, url: '/users' do |f| %>
+  
+  Name: 
+    <div style="padding-bottom:1em;"> <%= f.text_field :name %> </div>
+  <div> Email: </div>
+    <div style="padding-bottom:1em;"> <%= f.text_field :email %> </div>
+  <div> Password: </div>
+    <div style="padding-bottom:1em;"><%= f.password_field :password %> </div>
+  <div> Password Confirmation: </div> 
+    <div style="padding-bottom:1em;"> <%= f.password_field :password_confirmation %> </div>
+
+  <%= f.submit "Submit", class: "btn btn-default"%>
+
+<% end %>
