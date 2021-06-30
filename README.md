@@ -6,7 +6,7 @@ Tech Stack: Ruby, HTML, SCSS, JavaScript.
 
 ## Final Product
 
-!["Jungle Homepage"](link)
+!["Jungle Homepage"](https://github.com/tandica/jungle/blob/master/docs/jungle-homepage.png?raw=true)
 
 ## Setup
 
